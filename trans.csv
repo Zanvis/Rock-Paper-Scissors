@@ -1,0 +1,8 @@
+key,en,pl
+START_TEXT,WHO'S GOING TO WIN,KTO WYGRA
+DRAW,Draw,Remis
+PLAYERWIN,Player has won,Wygrał gracz
+COMPWIN,Computer has won,Wygrał komputer
+PAPER,Paper,Papier
+ROCK,Rock,Kamień
+SCISSORS,Scissors,Nożyce

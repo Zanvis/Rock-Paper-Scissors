@@ -1,0 +1,289 @@
+[gd_scene load_steps=14 format=3 uid="uid://cka705y87ftea"]
+
+[ext_resource type="Script" path="res://node_2d.gd" id="1_nylaa"]
+[ext_resource type="Texture2D" uid="uid://v1ulqhwf4yd4" path="res://Green.png" id="1_wqr77"]
+[ext_resource type="Texture2D" uid="uid://c3p5wwano1qlu" path="res://Terrain (16x16).png" id="2_uy6qt"]
+[ext_resource type="Texture2D" uid="uid://bttjyd84prbco" path="res://paper.png" id="3_2e5ja"]
+[ext_resource type="Texture2D" uid="uid://c6ygl0msjacdy" path="res://paper2.png" id="5_jgs6l"]
+[ext_resource type="Texture2D" uid="uid://8mc4tii4a6sa" path="res://rock.png" id="6_fd8pb"]
+[ext_resource type="Texture2D" uid="uid://docyu8e4na1gv" path="res://rock2.png" id="7_c3thu"]
+[ext_resource type="Texture2D" uid="uid://du5y0ks3ru5eo" path="res://scissors.png" id="8_jknlo"]
+[ext_resource type="Texture2D" uid="uid://bjym3a5rkedv3" path="res://scissors2.png" id="9_ju2c8"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_671n2"]
+texture = ExtResource("2_uy6qt")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+20:4/0 = 0
+21:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_icf7c"]
+sources/0 = SubResource("TileSetAtlasSource_671n2")
+
+[sub_resource type="Animation" id="Animation_oi47x"]
+resource_name = "start_the_game"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Rock:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(216, 335), Vector2(283, 302)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Rock:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 2, 3, 4, 5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.87707, 0.174044, 0.831416, 0.180553, 0.92308]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_uy22d"]
+_data = {
+"start_the_game": SubResource("Animation_oi47x")
+}
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_nylaa")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1149.0
+offset_bottom = 639.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_wqr77")
+stretch_mode = 1
+
+[node name="TileMap" type="TileMap" parent="."]
+texture_filter = 1
+scale = Vector2(2, 2)
+tile_set = SubResource("TileSet_icf7c")
+format = 2
+layer_0/tile_data = PackedInt32Array(1114112, 393216, 0, 1179648, 393216, 1, 1245184, 393216, 2, 1114113, 458752, 0, 1179649, 458752, 1, 1245185, 458752, 2, 1114114, 524288, 0, 1179650, 524288, 1, 1245186, 524288, 2, 1114115, 393216, 0, 1179651, 393216, 1, 1245187, 393216, 2, 1114116, 458752, 0, 1179652, 458752, 1, 1245188, 458752, 2, 1114117, 524288, 0, 1179653, 524288, 1, 1245189, 524288, 2, 1114118, 393216, 0, 1179654, 393216, 1, 1245190, 393216, 2, 1114119, 458752, 0, 1179655, 458752, 1, 1245191, 458752, 2, 1114120, 524288, 0, 1179656, 524288, 1, 1245192, 524288, 2, 1114121, 393216, 0, 1179657, 393216, 1, 1245193, 393216, 2, 1114122, 458752, 0, 1179658, 458752, 1, 1245194, 458752, 2, 1114123, 524288, 0, 1179659, 524288, 1, 1245195, 524288, 2, 1114124, 393216, 0, 1179660, 393216, 1, 1245196, 393216, 2, 1114125, 458752, 0, 1179661, 458752, 1, 1245197, 458752, 2, 1114126, 524288, 0, 1179662, 524288, 1, 1245198, 524288, 2, 1114127, 393216, 0, 1179663, 393216, 1, 1245199, 393216, 2, 1114128, 458752, 0, 1179664, 458752, 1, 1245200, 458752, 2, 1114129, 524288, 0, 1179665, 524288, 1, 1245201, 524288, 2, 1114130, 393216, 0, 1179666, 393216, 1, 1245202, 393216, 2, 1114131, 458752, 0, 1179667, 458752, 1, 1245203, 458752, 2, 1114132, 524288, 0, 1179668, 524288, 1, 1245204, 524288, 2, 1114133, 393216, 0, 1179669, 393216, 1, 1245205, 393216, 2, 1114134, 458752, 0, 1179670, 458752, 1, 1245206, 458752, 2, 1114135, 524288, 0, 1179671, 524288, 1, 1245207, 524288, 2, 1114136, 393216, 0, 1179672, 393216, 1, 1245208, 393216, 2, 1114137, 458752, 0, 1179673, 458752, 1, 1245209, 458752, 2, 1114138, 524288, 0, 1179674, 524288, 1, 1245210, 524288, 2, 1179678, 393216, 1, 1245214, 393216, 2, 1114143, 458752, 0, 1179679, 458752, 1, 1245215, 458752, 2, 1114144, 524288, 0, 1179680, 524288, 1, 1245216, 524288, 2, 1114139, 393216, 0, 1179675, 393216, 1, 1245211, 393216, 2, 1114140, 458752, 0, 1179676, 458752, 1, 1245212, 458752, 2, 1114141, 524288, 0, 1179677, 524288, 1, 1245213, 524288, 2, 1114142, 393216, 0, 1114145, 393216, 0, 1179681, 393216, 1, 1245217, 393216, 2, 1114146, 458752, 0, 1179682, 458752, 1, 1245218, 458752, 2, 1114147, 524288, 0, 1179683, 524288, 1, 1245219, 524288, 2)
+
+[node name="Paper" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(205, 265)
+texture = ExtResource("5_jgs6l")
+
+[node name="Paper2" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(945, 265)
+texture = ExtResource("3_2e5ja")
+
+[node name="Rock" type="Sprite2D" parent="."]
+position = Vector2(216, 335)
+texture = ExtResource("6_fd8pb")
+
+[node name="Rock2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(933, 335)
+texture = ExtResource("7_c3thu")
+
+[node name="Scissors" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(212, 266)
+texture = ExtResource("8_jknlo")
+
+[node name="Scissors2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(939, 266)
+texture = ExtResource("9_ju2c8")
+
+[node name="Winner" type="Label" parent="."]
+offset_left = 435.0
+offset_top = 57.0
+offset_right = 725.0
+offset_bottom = 99.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "WHO'S GONNA WIN"
+horizontal_alignment = 1
+
+[node name="btnPaper" type="Button" parent="."]
+offset_left = 64.0
+offset_top = 441.0
+offset_right = 154.0
+offset_bottom = 531.0
+text = "Paper"
+
+[node name="btnRock" type="Button" parent="."]
+offset_left = 179.0
+offset_top = 441.0
+offset_right = 269.0
+offset_bottom = 531.0
+text = "Rock"
+
+[node name="btnScissors" type="Button" parent="."]
+offset_left = 294.0
+offset_top = 441.0
+offset_right = 384.0
+offset_bottom = 531.0
+text = "Scissors"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../TextureRect")
+libraries = {
+"": SubResource("AnimationLibrary_uy22d")
+}
+speed_scale = 3.0
+
+[connection signal="pressed" from="btnPaper" to="." method="_on_btn_paper_pressed"]
+[connection signal="pressed" from="btnRock" to="." method="_on_btn_rock_pressed"]
+[connection signal="pressed" from="btnScissors" to="." method="_on_btn_scissors_pressed"]
